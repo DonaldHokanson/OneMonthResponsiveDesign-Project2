@@ -1,0 +1,206 @@
+/*
+ * General/Utility Styles
+*/
+
+* {
+	-moz-box-sizing: border-box; /* Firexfox */
+	-webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+	box-sizing: border-box; /* IE */
+}
+
+body {
+	margin: 0;
+	background: rgb(245, 245, 245);
+	font-family: 'Open Sans', arial, sans-serif;
+	font-size: 0.875rem;
+	color: rgb(86, 90, 92);
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+a {
+	font-weight: bold;
+	color: rgb(255, 89, 95);
+	text-decoration: none;
+}
+
+strong {
+	font-weight: 600;
+}
+
+
+/*
+ * Button styles
+*/
+
+.button {
+	background: rgb(255, 89, 95);
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 0.75rem 5rem;
+	border-bottom: 1px solid rgb(227, 25, 29);
+	border-radius: 2px;
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* -----main styles------ */
+
+/* header */
+
+nav{
+	width: 120px;
+	height: 60px;
+	border-right: 1px solid #dce0e0;
+}
+
+.hero img{
+	width: 100%;
+}
+
+hr{
+	border: 0.5px solid #dce0e0;
+}
+
+
+
+/* -----.info section----- */
+
+.info{
+	background: #fff;
+	border-bottom: 1px solid #dce0e0;
+	text-align: center;
+	padding: 24px;
+}
+
+/* .container */
+.info .container{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/* .profile */
+
+.profile{
+	margin-bottom: 24px;
+}
+
+/* .owner-details */
+
+
+
+.owner-details img{
+	border-radius: 100%;
+	width: 90px;
+	height: 90px;
+	margin-bottom: 4px;
+}
+
+.owner-details h2{
+	font-size: 0.875rem;
+	color: #909597;
+	margin-bottom: 4px;
+}
+
+/* .pet-details */
+
+
+.pet-details h1{
+	font-size: 1.375rem;
+	color: #666a6c;
+	margin-bottom: 4px;
+}
+
+.pet-details p{
+	font-size: 0.875rem;
+	color: #909597;
+	margin-bottom: 20px;
+}
+
+.pet-details .icons{
+	float: left;
+	width: 33%;
+}
+
+.pet-details .icons img{
+	height: 30px;
+	margin-bottom: 4px;
+}
+
+/* booking */
+
+
+.booking{
+	margin-bottom: 24px;
+}
+
+.booking h2{
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+
+.booking h2 span{
+	font-size: 1rem;
+}
+
+
+
+/* -----.dog section----- */
+
+section.dog{
+	margin: 20px;
+}
+
+
+/* .about */
+
+.about h2{
+	font-weight: bold;
+	text-align: center;
+	margin-top: 60px;
+}
+
+.about p{
+	text-align: left;
+	margin-top: 40px;
+	font-size: 0.8125rem;
+	line-height: 22px;
+}
+
+.about .contact{
+	font-weight: bold;
+	text-align: center;
+	font-size: 0.8125rem;
+	color: #ff595f;
+	margin-top: 36px;
+}
+
+/* .care */
+
+.care h3{
+	text-align: left;
+	margin: .75rem 0;
+}
+
+/* .games */
+
+.games h3{
+	margin: .75rem 0;
+}
+.games ul li{
+	padding: 4px;
+}
+.games ul li img{
+	width: 30px;
+	margin-right: 4px;
+}
+
+/* .photos */

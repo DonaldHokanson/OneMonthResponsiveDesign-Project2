@@ -1,0 +1,127 @@
+.hero img{
+	height: 600px;
+}
+
+section.info{
+	height: 200px;
+}
+
+.info .container{
+ width: 1060px;
+ margin: 0 auto;
+}
+
+/* -----.profile----- */
+
+.profile{
+	float: left;
+	width: 660px;
+	height: 148px;
+	border-right: 1px solid #dce0e0;
+
+}
+
+/* .owner-details */
+
+.owner-details{
+	float: left;
+}
+
+/* .pet-details */
+
+.pet-details{
+	float: inherit;
+	width: 75%;
+	margin-left: 2rem;
+}
+
+.pet-details h1, .pet-details p{
+	text-align: left;
+}
+
+.icon-flexbox{
+	display: flex;
+	justify-content: space-between;
+	width: 350px;
+}
+
+.pet-details .icons{
+	width: unset;
+}
+
+/* -----.booking----- */
+
+.booking{
+	float: left;
+	width: 380px;
+}
+
+.booking .button{
+	width: 274px;
+}
+
+
+
+
+/* -----.dog----- */
+
+.dog .container{
+	margin-left: 310px;
+	width: 655px;
+}
+
+/* .about */
+
+
+/* .care */
+
+.care{
+	height: 130px;
+}
+
+.dog-care, .dog-diet, .dog-check{
+	margin-top: 28px;
+}
+
+.dog-care{
+	float: left;
+	width: 170px;
+}
+
+.dog-diet{
+	float: left;
+	width: 260px;
+}
+
+.dog-check{
+	float: left;
+	width: 225px;
+}
+
+/* .games */
+
+.games{
+	height: 130px;
+}
+
+.games h3, ul{
+	float: left;
+}
+
+.games h3{
+	width: 170px;
+}
+
+/* .photos */
+
+.photos{
+	display: flex;
+	justify-content: space-between;
+}
+
+.photos img{
+	width: 200px;
+	height: 300px;
+	margin-top: 28px;
+	margin-bottom: 80px;
+}
