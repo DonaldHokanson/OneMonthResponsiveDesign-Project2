@@ -204,7 +204,11 @@ section.dog{
 }
 
 /* .photos */
-
-.photos img{
+.photos{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.dog-img{
 	width: 100%;
 }
